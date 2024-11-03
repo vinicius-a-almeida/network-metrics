@@ -17,3 +17,5 @@ DOMAIN=$1
 tim=$(dig +stats "$DOMAIN" | grep "Query time" | awk '{print $4}')
 
 echo "The resolution time of '$DOMAIN' is: $tim ms"
+
+curl -s -o /dev/null -w "dns:%{time_namelookup}, redir:%{time_redirect}, tcp:%{time_connect}\n" "$DOMAIN"
