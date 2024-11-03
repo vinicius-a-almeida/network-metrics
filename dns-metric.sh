@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Verifica se um domínio foi passado como argumento
 if [ "$#" -ne 1 ]; then
-    echo "Uso: $0 <dominio>"
+    echo "Use: $0 <domain>"
     exit 1
 fi
 
@@ -13,10 +12,8 @@ else
     sudo apt install dnsutils
 fi
 
-DOMINIO=$1
+DOMAIN=$1
 
-# Usa o dig com a opção +stats para obter estatísticas
-tempo=$(dig +stats "$DOMINIO" | grep "Query time" | awk '{print $4}')
+tim=$(dig +stats "$DOMAIN" | grep "Query time" | awk '{print $4}')
 
-# Exibe o tempo de resolução
 echo "O tempo de resolução de '$DOMINIO' é: $tempo ms"
