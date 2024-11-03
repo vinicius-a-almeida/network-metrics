@@ -16,4 +16,4 @@ DOMAIN=$1
 
 tim=$(dig +stats "$DOMAIN" | grep "Query time" | awk '{print $4}')
 
-echo "O tempo de resolução de '$DOMINIO' é: $tempo ms"
+echo "The resolution time of '$DOMAIN' is: $tim ms"
