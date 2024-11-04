@@ -10,7 +10,7 @@ sudo killall -USR1 systemd-resolved
 #fi
 
 if dpkg-query -W -f='${Status}' dnsutils 2>/dev/null | grep -q "install ok installed"; then
-    echo "dig installed"
+    echo ""
 else
     echo "dig is not installed."
     sudo apt install dnsutils
