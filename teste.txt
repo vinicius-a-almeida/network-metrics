@@ -1,5 +1,0 @@
-{id: 1, resolve: 0, tcp: dns:0.001456, redir:0.000000, tcp:0.040960}
-{id: 2, resolve: 0, tcp: dns:0.001451, redir:0.000000, tcp:0.041035}
-{id: 3, resolve: 0, tcp: dns:0.001383, redir:0.000000, tcp:0.045517}
-{id: 4, resolve: 0, tcp: dns:0.001249, redir:0.000000, tcp:0.040646}
-{id: 5, resolve: 3, tcp: dns:0.001902, redir:0.000000, tcp:0.041474}
