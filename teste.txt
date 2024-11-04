@@ -1,0 +1,10 @@
+{domain: google.com, dns-time: 7, tcp: dns:0.032453, redir:0.000000, tcp:0.072051}
+{domain: facebook.com, dns-time: 75, tcp: dns:0.021064, redir:0.000000, tcp:0.063448}
+{domain: instagram.com, dns-time: 7, tcp: dns:0.022658, redir:0.000000, tcp:0.064861}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp: dns:0.011903, redir:0.000000, tcp:0.037342}
+{domain: ufersa.edu.br, dns-time: 0, tcp: dns:1.193392, redir:0.000000, tcp:1.235678}
+{domain: meet.google.com, dns-time: 23, tcp: dns:0.009548, redir:0.000000, tcp:0.049444}
+{domain: stackoverflow.com, dns-time: 0, tcp: dns:0.990963, redir:0.000000, tcp:1.009149}
+{domain: mail.google.com, dns-time: 7, tcp: dns:0.007305, redir:0.000000, tcp:0.046772}
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp: dns:0.012775, redir:0.000000, tcp:0.037235}
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: dns:0.006882, redir:0.000000, tcp:0.031643}
