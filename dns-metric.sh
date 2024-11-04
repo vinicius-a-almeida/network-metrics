@@ -1,4 +1,5 @@
 #!/bin/bash
+touch teste.txt
 #for (( c=1; c<=5; c++)) do
 while read arg; do
 sudo killall -USR2 systemd-resolved
@@ -20,11 +21,14 @@ DOMAIN=$arg
 
 resolve=$(dig +stats "$DOMAIN" | grep "Query time" | awk '{print $4}')
 
-tcp=$(curl -s -o /dev/null -w "dns:%{time_namelookup}, redir:%{time_redirect}, tcp:%{time_connect}\n" "$DOMAIN")
+tcp_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
+speed_download=$(curl -s -o /dev/null -w "%{speed_download} B/s" "$DOMAIN")
+time_appconnect=$(curl -s -o /dev/null -w "%{time_appconnect} s" "$DOMAIN")
+time_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
 #sleep 30
 #printf "%s" "teste"
-printf "%s" "{domain: $DOMAIN, dns-time: $resolve, tcp: $tcp}"
-touch teste.txt
-echo "{domain: $DOMAIN, dns-time: $resolve, tcp: $tcp}" >> teste.txt
+
+printf "%s" "{domain: $DOMAIN, dns-time: $resolve, tcp_connect: $tcp_connect, speed_download: $speed_download}"
+echo "{domain: $DOMAIN, dns-time: $resolve, tcp_connect: $tcp_connect, speed_download: $speed_download}" >> teste.txt
 done
 

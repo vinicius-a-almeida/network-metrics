@@ -1,0 +1,110 @@
+{domain: google.com, dns-time: 3, tcp: 0.040755 s, 552 B/s, 0 B/s, }
+{domain: facebook.com, dns-time: 0, tcp: 0.043350 s, 0 B/s, 0 B/s, }
+{domain: instagram.com, dns-time: 91, tcp: 0.043946 s, 0 B/s, 0 B/s, }
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp: 0.032485 s, 3670 B/s, 0 B/s, }
+{domain: ufersa.edu.br, dns-time: 0, tcp: 0.047759 s, 1824 B/s, 0 B/s, }
+{domain: meet.google.com, dns-time: 0, tcp: 0.040602 s, 0 B/s, 0 B/s, }
+{domain: stackoverflow.com, dns-time: 3, tcp: 0.167767 s, 702 B/s, 0 B/s, }
+{domain: mail.google.com, dns-time: 0, tcp: 0.041062 s, 1008 B/s, 0 B/s, }
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp: 0.032867 s, 3608 B/s, 0 B/s, }
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: 0.031337 s, 3774 B/s, 0 B/s, }
+{domain: google.com, dns-time: 3, tcp: 0.040483 s, 551 B/s, 0 B/s, }
+{domain: facebook.com, dns-time: 7, tcp: 0.058559 s, 0 B/s, 0 B/s, }
+{domain: instagram.com, dns-time: 0, tcp: 0.049375 s, 0 B/s, 0 B/s, }
+{domain: sigaa.ufersa.edu.br, dns-time: 3, tcp: 0.032535 s, 3681 B/s, 0 B/s, }
+{domain: ufersa.edu.br, dns-time: 0, tcp: 0.054152 s, 1702 B/s, 0 B/s, }
+{domain: meet.google.com, dns-time: 0, tcp: 0.048430 s, 0 B/s, 0 B/s, }
+{domain: stackoverflow.com, dns-time: 0, tcp: 0.152393 s, 759 B/s, 0 B/s, }
+{domain: mail.google.com, dns-time: 3, tcp: 0.040885 s, 841 B/s, 0 B/s, }
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp: 0.031416 s, 3775 B/s, 0 B/s, }
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: 0.032292 s, 3720 B/s, 0 B/s, }
+{domain: google.com, dns-time: 7, tcp: 0.047495 s, 536 B/s, 0 B/s, }
+{domain: facebook.com, dns-time: 7, tcp: 0.049235 s, 0 B/s, 0 B/s, }
+{domain: instagram.com, dns-time: 7, tcp: 0.053229 s, 0 B/s, 0 B/s, }
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp: 0.031402 s, 1614 B/s, 0 B/s, }
+{domain: ufersa.edu.br, dns-time: 0, tcp: 0.381426 s, 383 B/s, 0 B/s, }
+{domain: meet.google.com, dns-time: 11, tcp: 0.041074 s, 0 B/s, 0 B/s, }
+{domain: stackoverflow.com, dns-time: 0, tcp: 0.130070 s, 1010 B/s, 0 B/s, }
+{domain: mail.google.com, dns-time: 11, tcp: 0.046759 s, 705 B/s, 0 B/s, }
+{domain: sipac.ufersa.edu.br, dns-time: 3, tcp: 0.352822 s, 466 B/s, 0 B/s, }
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: 0.353221 s, 466 B/s, 0 B/s, }
+{domain: google.com, dns-time: 0, tcp: 0.040743 s, 546 B/s, 0 B/s, }
+{domain: facebook.com, dns-time: 7, tcp: 0.048968 s, 0 B/s, 0 B/s, }
+{domain: instagram.com, dns-time: 23, tcp: 0.055737 s, 0 B/s, 0 B/s, }
+{domain: sigaa.ufersa.edu.br, dns-time: 3, tcp: 0.031374 s, 3757 B/s, 0 B/s, }
+{domain: ufersa.edu.br, dns-time: 3, tcp: 0.068904 s, 1478 B/s, 0 B/s, }
+{domain: meet.google.com, dns-time: 0, tcp: 0.045876 s, 0 B/s, 0 B/s, }
+{domain: stackoverflow.com, dns-time: 0, tcp: 0.244709 s, 571 B/s, 0 B/s, }
+{domain: mail.google.com, dns-time: 3, tcp: 0.040744 s, 990 B/s, 0 B/s, }
+{domain: sipac.ufersa.edu.br, dns-time: 3, tcp: 0.032490 s, 3651 B/s, 0 B/s, }
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: 0.032184 s, 3724 B/s, 0 B/s, }
+{domain: google.com, dns-time: 7, tcp: 0.047143 s}
+{domain: facebook.com, dns-time: 7, tcp: 0.151407 s}
+{domain: instagram.com, dns-time: 67, tcp: 0.128827 s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp: 0.031055 s}
+{domain: ufersa.edu.br, dns-time: 0, tcp: 0.059691 s}
+{domain: meet.google.com, dns-time: 3, tcp: 0.041073 s}
+{domain: stackoverflow.com, dns-time: 7, tcp: 0.153490 s}
+{domain: mail.google.com, dns-time: 3, tcp: 0.052591 s}
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp: 0.028281 s}
+{domain: sigrh.ufersa.edu.br, dns-time: 3, tcp: 0.031048 s}
+{domain: google.com, dns-time: 7, tcp: 0.047831 s}
+{domain: facebook.com, dns-time: 11, tcp: 0.101785 s}
+{domain: instagram.com, dns-time: 139, tcp: 0.134130 s}
+{domain: sigaa.ufersa.edu.br, dns-time: 7, tcp: 0.033122 s}
+{domain: ufersa.edu.br, dns-time: 1839, tcp: 0.419047 s}
+{domain: meet.google.com, dns-time: 23, tcp: 0.048218 s}
+{domain: stackoverflow.com, dns-time: 15, tcp: 0.155572 s}
+{domain: mail.google.com, dns-time: 15, tcp: 0.046868 s}
+{domain: sipac.ufersa.edu.br, dns-time: 711, tcp: 1.036504 s}
+{domain: sigrh.ufersa.edu.br, dns-time: 331, tcp: 0.083955 s}
+{domain: google.com, dns-time: 0, tcp: 0.040936 s}
+{domain: facebook.com, dns-time: 0, tcp: 0.043467 s}
+{domain: instagram.com, dns-time: 0, tcp: 0.043150 s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp: 0.034311 s}
+{domain: ufersa.edu.br, dns-time: 0, tcp: 0.048485 s}
+{domain: meet.google.com, dns-time: 0, tcp: 0.041184 s}
+{domain: stackoverflow.com, dns-time: 0, tcp: 0.291213 s}
+{domain: mail.google.com, dns-time: 0, tcp: 0.040886 s}
+{domain: sipac.ufersa.edu.br, dns-time: 3, tcp: 0.042083 s}
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp: 0.042820 s}
+{domain: google.com, dns-time: 3, tcp_connect: 0.040564 s, speed_download: 550 B/s}
+{domain: facebook.com, dns-time: 3, tcp_connect: 0.198959 s, speed_download: 0 B/s}
+{domain: instagram.com, dns-time: 3, tcp_connect: 0.055434 s, speed_download: 0 B/s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp_connect: 0.031735 s, speed_download: 3538 B/s}
+{domain: ufersa.edu.br, dns-time: 3, tcp_connect: 0.052167 s, speed_download: 1807 B/s}
+{domain: meet.google.com, dns-time: 0, tcp_connect: 0.052102 s, speed_download: 0 B/s}
+{domain: stackoverflow.com, dns-time: 0, tcp_connect: 0.091003 s, speed_download: 894 B/s}
+{domain: mail.google.com, dns-time: 0, tcp_connect: 0.041136 s, speed_download: 767 B/s}
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp_connect: 0.032154 s, speed_download: 3840 B/s}
+{domain: sigrh.ufersa.edu.br, dns-time: 3, tcp_connect: 0.032274 s, speed_download: 3700 B/s}
+{domain: google.com, dns-time: 0, tcp_connect: 0.040761 s, speed_download: 556 B/s}
+{domain: facebook.com, dns-time: 3, tcp_connect: 0.043742 s, speed_download: 0 B/s}
+{domain: instagram.com, dns-time: 3, tcp_connect: 0.043909 s, speed_download: 0 B/s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp_connect: 0.031855 s, speed_download: 3656 B/s}
+{domain: ufersa.edu.br, dns-time: 3, tcp_connect: 0.414189 s, speed_download: 1888 B/s}
+{domain: meet.google.com, dns-time: 0, tcp_connect: 0.041701 s, speed_download: 0 B/s}
+{domain: stackoverflow.com, dns-time: 3, tcp_connect: 0.115626 s, speed_download: 2279 B/s}
+{domain: mail.google.com, dns-time: 0, tcp_connect: 0.041076 s, speed_download: 971 B/s}
+{domain: sipac.ufersa.edu.br, dns-time: 3, tcp_connect: 0.051017 s, speed_download: 3082 B/s}
+{domain: sigrh.ufersa.edu.br, dns-time: 3, tcp_connect: 0.046315 s, speed_download: 3613 B/s}
+{domain: google.com, dns-time: 0, tcp_connect: 0.041210 s, speed_download: 550 B/s}
+{domain: facebook.com, dns-time: 0, tcp_connect: 0.048448 s, speed_download: 0 B/s}
+{domain: instagram.com, dns-time: 7, tcp_connect: 0.074419 s, speed_download: 0 B/s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp_connect: 0.032667 s, speed_download: 3607 B/s}
+{domain: ufersa.edu.br, dns-time: 0, tcp_connect: 0.078076 s, speed_download: 1791 B/s}
+{domain: meet.google.com, dns-time: 3, tcp_connect: 0.040484 s, speed_download: 0 B/s}
+{domain: stackoverflow.com, dns-time: 0, tcp_connect: 0.169908 s, speed_download: 1056 B/s}
+{domain: mail.google.com, dns-time: 0, tcp_connect: 0.041242 s, speed_download: 974 B/s}
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp_connect: 0.046659 s, speed_download: 3026 B/s}
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp_connect: 0.046788 s, speed_download: 3600 B/s}
+{domain: google.com, dns-time: 0, tcp_connect: 0.040838 s, speed_download: 553 B/s}
+{domain: facebook.com, dns-time: 0, tcp_connect: 0.043722 s, speed_download: 0 B/s}
+{domain: instagram.com, dns-time: 0, tcp_connect: 0.043964 s, speed_download: 0 B/s}
+{domain: sigaa.ufersa.edu.br, dns-time: 0, tcp_connect: 0.031892 s, speed_download: 3682 B/s}
+{domain: ufersa.edu.br, dns-time: 0, tcp_connect: 0.048818 s, speed_download: 1405 B/s}
+{domain: meet.google.com, dns-time: 0, tcp_connect: 0.040752 s, speed_download: 0 B/s}
+{domain: stackoverflow.com, dns-time: 3, tcp_connect: 0.217122 s, speed_download: 1184 B/s}
+{domain: mail.google.com, dns-time: 0, tcp_connect: 0.041184 s, speed_download: 682 B/s}
+{domain: sipac.ufersa.edu.br, dns-time: 0, tcp_connect: 0.032613 s, speed_download: 3718 B/s}
+{domain: sigrh.ufersa.edu.br, dns-time: 0, tcp_connect: 0.034014 s, speed_download: 3510 B/s}
