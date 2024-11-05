@@ -1,6 +1,7 @@
 #!/bin/bash
-touch teste.txt
 #for (( c=1; c<=5; c++)) do
+count=0
+tcp_connect_sum=0.0
 while read arg; do
 sudo killall -USR2 systemd-resolved
 sudo resolvectl flush-caches
@@ -21,7 +22,7 @@ DOMAIN=$arg
 
 resolve=$(dig +stats "$DOMAIN" | grep "Query time" | awk '{print $4}')
 
-tcp_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
+tcp_connect=$(curl -s -o /dev/null -w "%{time_connect}" "$DOMAIN")
 speed_download=$(curl -s -o /dev/null -w "%{speed_download} B/s" "$DOMAIN")
 time_appconnect=$(curl -s -o /dev/null -w "%{time_appconnect} s" "$DOMAIN")
 time_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
@@ -36,9 +37,17 @@ tcp_connect: $tcp_connect, speed_download: $speed_download,
 time_appconnect: $time_appconnect, time_connect: $time_connect, time_total: $time_total}"
 
 
+let "count++"
+tcp_connect_sum=$(echo "$tcp_connect + $tcp_connect_sum" | bc)
+
+
 echo "{domain: $DOMAIN, dns-time: $resolve,
 tcp_connect: $tcp_connect, speed_download: $speed_download,
 time_appconnect: $time_appconnect, time_connect: $time_connect, time_total: $time_total}" >> teste.txt
 
 done
+tcp_connect_avg=$(echo "$tcp_connect_sum / $count" | bc -l)
+printf "%s" "
 
+tcp_connect_avg: $tcp_connect_avg
+"
