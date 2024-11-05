@@ -25,10 +25,20 @@ tcp_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
 speed_download=$(curl -s -o /dev/null -w "%{speed_download} B/s" "$DOMAIN")
 time_appconnect=$(curl -s -o /dev/null -w "%{time_appconnect} s" "$DOMAIN")
 time_connect=$(curl -s -o /dev/null -w "%{time_connect} s" "$DOMAIN")
+time_total=$(curl -s -o /dev/null -w "%{time_total} s" "$DOMAIN")
 #sleep 30
 #printf "%s" "teste"
 
-printf "%s" "{domain: $DOMAIN, dns-time: $resolve, tcp_connect: $tcp_connect, speed_download: $speed_download}"
-echo "{domain: $DOMAIN, dns-time: $resolve, tcp_connect: $tcp_connect, speed_download: $speed_download}" >> teste.txt
+# curl manual: https://curl.se/docs/manpage.html
+
+printf "%s" "{domain: $DOMAIN, dns-time: $resolve,
+tcp_connect: $tcp_connect, speed_download: $speed_download,
+time_appconnect: $time_appconnect, time_connect: $time_connect, time_total: $time_total}"
+
+
+echo "{domain: $DOMAIN, dns-time: $resolve,
+tcp_connect: $tcp_connect, speed_download: $speed_download,
+time_appconnect: $time_appconnect, time_connect: $time_connect, time_total: $time_total}" >> teste.txt
+
 done
 
